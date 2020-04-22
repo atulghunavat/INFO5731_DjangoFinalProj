@@ -124,13 +124,12 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
-STATIC_URL = '/mysite/polls/assets/'
+STATIC_URL = '/polls/assets/'
 
 STATICFILES_DIRS = [
-    "/mysite/polls/assets",
+    "polls/assets",
 ]
 
-
-# STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static_cdn")
+# STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "")
 
 ALLOWED_HOSTS = ['*']
