@@ -23,14 +23,18 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes />
+    <loaded-nodes>
+      <connection connection-id="cdcf6dbb-df5b-4df4-acae-863471054b12">
+        <schema name="kgannotation" object-types="procedure, view, table, function" />
+      </connection>
+    </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="cdcf6dbb-df5b-4df4-acae-863471054b12">
-      <console name="kgannotation" type="STANDARD" schema="mysql" session="Main"><![CDATA[select
+      <console name="kgannotation" type="STANDARD" schema="mysql" session="Main">select
     *
 from
-    user;]]></console>
+    user;</console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
