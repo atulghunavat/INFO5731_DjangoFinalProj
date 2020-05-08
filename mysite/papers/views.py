@@ -59,6 +59,9 @@ def papercontent(request):
     content = p.Paper_Content.decode()
     return render(request, 'papercontent.html', {'paper_content':content})
 
+# def contentdemo(request):
+#     return render(request, 'contentdemo.html')
+
 def paperannotation(request):
     return render(request, 'annotation.html')
 

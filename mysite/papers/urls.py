@@ -8,4 +8,5 @@ urlpatterns = [
     url('paperlist', views.paperlist, name = 'paperlist'),
     url('papercontent', views.papercontent, name = 'papercontent'),
     url('annotation', views.paperannotation, name= 'annotation'),
+    # url('contentdemo', views.contentdemo, name = 'contentdemo'),
 ]
